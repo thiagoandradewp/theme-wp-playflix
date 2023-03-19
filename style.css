@@ -10,3 +10,35 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: playfix
 Global Prefix: playfix
 */
+
+body {
+    background: #000;
+    font-family: 'Open Sans' sans-serif;
+    color: #fff;
+}
+
+.playflix_header {
+    margin: 0px;
+    background-color: #000;
+    color: #fff;
+}
+
+.playflix_header li {
+    color: red;
+    text-transform: uppercase;
+}
+
+.playflix_header a {
+    color: blue;
+}
+
+.playflix_header a:hover {
+    color: red;
+}
+
+.playflix_footer {
+    padding: 25px;
+    background: #121212;
+    font-family: 'Open Sans' sans-serif;
+    color: red;
+}
