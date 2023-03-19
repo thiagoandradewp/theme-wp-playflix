@@ -8,7 +8,12 @@
     <?php wp_head();?>
 
     <div class="playflix_header">
-         <?php wp_nav_menu();?>
+        <a href="<?php home_url(); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logo-play.svg" alt="Playflix"><br></a>
+    
+    <div class="playflix_header_menu">
+        <?php wp_nav_menu();?>
+    </div>
+
     </div>
 
 </head>

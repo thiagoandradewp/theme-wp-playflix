@@ -15,30 +15,79 @@ body {
     background: #000;
     font-family: 'Open Sans' sans-serif;
     color: #fff;
+    margin: 0px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    justify-content: center;
 }
 
 .playflix_header {
     margin: 0px;
-    background-color: #000;
-    color: #fff;
+    padding: 10px;
+    background-color: #000000E6;
+    color: #FFFFFF;
+    display: flex;
 }
 
 .playflix_header li {
     color: red;
-    text-transform: uppercase;
+    display: inline-block;
+    justify-content: flex-end;
 }
 
 .playflix_header a {
-    color: blue;
+    color: #fff;
+    letter-spacing: 0.57px;
 }
 
 .playflix_header a:hover {
-    color: red;
+    color: blue;
+}
+
+.playflix_header_menu {
+    justify-content: flex-end;
 }
 
 .playflix_footer {
-    padding: 25px;
+    margin: 0px;
+    padding: 10px;
     background: #121212;
+    color: #fff;
+    font-size: 18px;
+    text-align: left;
     font-family: 'Open Sans' sans-serif;
-    color: red;
+    letter-spacing: 0.54px;
+}
+
+.playflix_footer img {
+    width: 104px;
+    height: 33px;
+}
+
+.playflix_tarjas {
+    display: inline-block;
+}
+
+.playflix_categorias {
+    background-color: #FFF;
+    color: #000;
+    border-radius: 4px;
+    display: inline;
+}
+
+.playflix_duracao {
+    background-color: #000;
+    color: #fff;
+    border-radius: 4px;
+    border-color: #FFF;
+    display: inline;
+}
+
+.playflix_video_single {
+    justify-content: center;
 }

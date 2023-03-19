@@ -1,9 +1,11 @@
-   
+ 
 <?php get_header(); ?>
 
 <?php 
 
-echo "archive dos videos";
+echo "aqui vai as categorias";
+
 ?>
+
 
 <?php get_footer(); ?>
